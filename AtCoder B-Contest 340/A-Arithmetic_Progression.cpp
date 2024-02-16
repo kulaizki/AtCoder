@@ -21,9 +21,7 @@ void solve(int tc = 0) {
     int a, b, d;
     cin >> a >> b >> d;
 
-    for (int i = a; i <= b; i += d) {
-        cout << i << ' ';
-    }
+    for (; a <= b; a += d) cout << a << ' ';
 }
 
 int main() {
