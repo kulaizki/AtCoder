@@ -35,7 +35,7 @@ void solve(int tc = 0) {
         }
     }
 
-    cout << a[p2] - a[p1] << endl;
+    cout << a[p2] - a[  p1] << endl;
 }
 
 int main() {
